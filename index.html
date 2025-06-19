@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Movie Share</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🎬 My Movie Library</h1>
+  <div id="movie-list"></div>
+
+  <script>
+    fetch('movies.json')
+      .then(response => response.json())
+      .then(data => {
+        const list = document.getElementById("movie-list");
+        data.movies.forEach(movie => {
+          list.innerHTML += `
+            <div class="movie-card">
+              <h2>${movie.title}</h2>
+              <p>Quality: ${movie.quality}</p>
+              <a href="${movie.link}" target="_blank">📥 Download</a>
+              <a href="${movie.link}" target="_blank">▶️ Stream</a>
+            </div>
+          `;
+        });
+      });
+  </script>
+</body>
+</html>
