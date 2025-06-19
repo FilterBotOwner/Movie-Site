@@ -1,0 +1,20 @@
+
+{
+  "movies": [
+    {
+      "title": "Avengers: Endgame",
+      "quality": "1080p",
+      "link": "https://pixeldrain.com/u/example1"
+    },
+    {
+      "title": "Spiderman: No Way Home",
+      "quality": "720p",
+      "link": "https://mega.nz/file/example2"
+    },
+    {
+      "title": "Pushpa: The Rise",
+      "quality": "480p",
+      "link": "https://pixeldrain.com/u/example3"
+    }
+  ]
+}

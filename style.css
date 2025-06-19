@@ -1,0 +1,29 @@
+
+body {
+  font-family: Arial;
+  background: #111;
+  color: #fff;
+  padding: 20px;
+}
+h1 {
+  margin-bottom: 10px;
+}
+#search {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+}
+.movie-card {
+  background: #222;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+.movie-card a {
+  margin-right: 10px;
+  color: #00f0ff;
+  text-decoration: none;
+}
